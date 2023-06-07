@@ -6,13 +6,14 @@
 body{
     display: flex;
     justify-content: center;
+    font-family: Roboto;
 }
 
 .container{
     width: 75%;
-    height: 400px;
-    border: 3px solid red;
+    height: 530px;
     margin-top: 30px;
+    box-shadow: 3px 3px 32px 5px rgba(0,0,0,0.52);
 }
 
 .top-section{
@@ -22,6 +23,36 @@ body{
 
 
 .bottom-section{
-    background-color: aquamarine;
     height: 65%;
+    padding: 20px;
+}
+
+.bottom-section ul{
+    list-style: none;
+}
+
+.bottom-section h2, p, ul{
+    padding-bottom: 9px;
+}
+
+.form{
+    font-weight: 700;
+}
+
+#email{
+    border: 1px solid grey;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#submit{
+    border: 1px solid grey;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #36384E;
+    color: white;
 }
