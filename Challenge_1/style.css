@@ -19,8 +19,10 @@ body{
 .top-section{
     background-color: #FF6257;
     height: 35%;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    display: flex;
 }
-
 
 .bottom-section{
     height: 65%;
@@ -55,4 +57,10 @@ body{
     margin: 10px;
     background-color: #36384E;
     color: white;
+}
+
+@media (min-width: 425px) {
+    .container{
+
+    }
 }
