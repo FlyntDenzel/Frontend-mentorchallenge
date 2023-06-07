@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 35%;
+    height: 400px;
+    border: 3px solid red;
+}
+
+.top-section{
+    background-color: blueviolet;
+    height: 35%;
+}
+
+
+.bottom-section{
+    background-color: aquamarine;
+    height: 65%;
+}
