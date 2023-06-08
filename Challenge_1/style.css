@@ -59,8 +59,27 @@ body{
     color: white;
 }
 
-@media (min-width: 425px) {
+@media (min-width: 576px) {
     .container{
-
+        display: flex;
+        width: 600px;
+        height: 530px;
+        margin-top: 30px;
+        box-shadow: 3px 3px 32px 5px rgba(0,0,0,0.52);
+    }
+    
+    .top-section, .bottom-section{
+        width: 50%;
+    }
+    
+    .top-section{
+        background-color: #FF6257;
+        margin: 20px;
+        height: 90%;
+        border-radius: 10px;        
+    }
+    
+    .bottom-section{
+        height: 100%;
     }
 }
