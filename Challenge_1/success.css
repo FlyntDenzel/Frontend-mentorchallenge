@@ -71,5 +71,35 @@ svg{
 }
 
 @media (min-width: 576px)  {
-    
-}
+    .container{
+        width: 69%;
+        height: 350px;
+        box-shadow: 3px 3px 32px 5px rgba(0,0,0,0.52);
+        border-radius: 15px;
+        display: flex;
+    }
+
+    .bottom-section h2{
+        padding-top: 70px;
+    }
+
+    #submit{
+        border: 1px solid grey;
+        width: 90%;
+        height: 40px;
+        border-radius: 5px;
+        margin: 10px;
+        background-color: #36384E;
+        color: white;
+    }
+
+    .form{
+        font-weight: 700;
+        padding-top: 10px;
+    }
+
+    svg{
+        margin-top: 25px;
+        display: flex;
+    }
+}   
