@@ -17,8 +17,8 @@
         window.location.href = 'success.html';
 }
 
-    const form = document.getElementById('form');
-    form.addEventListener('submit', (event) => {
+    const forms = document.getElementById('form');
+    forms.addEventListener("submit", function(event) {
         // this prevents the default form from being submitted    
         event.preventDefault();
         submitForm();

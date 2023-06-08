@@ -69,3 +69,7 @@ svg{
     background-color: #36384E;
     color: white;
 }
+
+@media (min-width: 576px)  {
+    
+}
