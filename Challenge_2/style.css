@@ -5,7 +5,22 @@
 
 .container{
     border: 3px solid black;
-    width: 70px;
-    height: 70px;
+    width: 80%;
+    height: 700px;
+    margin: 70px auto;
+}
+
+.top-section, .bottom-section{
+    width: 100%;
+}
+
+.top-section{
+    height: 25%;
+    background-color: aqua;
+
+}
+
+.bottom-section{
+    height: 75%;
     background-color: blue;
 }
