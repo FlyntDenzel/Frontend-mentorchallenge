@@ -17,10 +17,23 @@
 .top-section{
     height: 25%;
     background-color: aqua;
+}
 
+.form{
+    background-color: white;
+    padding: -20% auto;
+    width: 95%;
+    height: 70%;
 }
 
 .bottom-section{
     height: 75%;
-    background-color: blue;
+    background-color: #C2E2FA;
+}
+
+
+h3{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #02295A;
 }
