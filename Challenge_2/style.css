@@ -67,6 +67,11 @@ p{
     margin-left: 20px;
 }
 
+form{
+    padding-top: 20px;
+}
+
+
 #button{
   position: absolute;
   bottom: -50px;
