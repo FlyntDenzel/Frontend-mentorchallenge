@@ -6,11 +6,13 @@
 }
 
 .container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    border-radius: 4px;
     width: 85%;
-    height: 760px;
+    height: 790px;
     margin: 70px auto;
     font-family: sans-serif;
+    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, .35);
 }
 
 .notification-bar{
@@ -57,7 +59,7 @@
 
 .notification-section h4{
     border: 1px solid rgb(209, 207, 207);
-    padding: 20px;
+    padding: 10px;
     width: 80%;
     margin-left: 50px;
     border-radius: 8px;
