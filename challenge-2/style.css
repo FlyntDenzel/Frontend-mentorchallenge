@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* keeps everything within the border */
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid black;
+    width: 85%;
+    height: 600px;
+    margin: 70px auto;
+}
+
+.notification-bar{
+    border: 2px solid aqua;
+    height: 10%;
+}
+
+.notification-section{
+    border: 2px solid orange;
+    height: 90%;
+}
+
+.content{
+    margin: 10px;
+    border: 2px solid green;
+    height: 10%;
+}
