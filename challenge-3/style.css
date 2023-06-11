@@ -11,6 +11,10 @@
     margin: 30px auto;
 }
 
+.nav{
+    border: 2px solid aqua;
+    height: 4%;
+}
 
 .image{
     border: 2px solid orange;
