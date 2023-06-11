@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid black;
+    width: 85%;
+    height: 1000px;
+    margin: 30px auto;
+}
+
+.navbar{
+    border: 2px solid aqua;
+    height: 4%;
+}
+
+.image{
+    border: 2px solid orange;
+    height: 15%;
+}
+
+.text{
+    border: 2px solid green;
+    height: 23%;
+}
+
+.new-section{
+    border: 2px solid grey;
+    height: 25%;
+}
+
+.product-section{
+    border: 2px solid blue;
+    height: 33%;
+}
