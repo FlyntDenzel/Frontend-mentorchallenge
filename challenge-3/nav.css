@@ -1,3 +1,5 @@
+/* desktop first approach */
+
 *{
     padding: 0;
     margin: 0;
@@ -11,9 +13,8 @@ body{
 }
 
 nav{
-    background: #0082e6;
+    background: aqua;
     height: 80px;
-    width: 100%;
 }
 
 label.logo{
@@ -40,7 +41,7 @@ nav ul li a{
     font-size: 17px;
     text-transform: uppercase;
     padding: 7px 13px;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 a.active,a:hover{
@@ -49,12 +50,12 @@ a.active,a:hover{
 }
 
 .checkbtn{
-    font-size: 30px;
     color: white;
+    font-size: 40px;
     float: right;
-    line-height: 80px;
-    margin-right: 40px;
+    margin-right: 30px;
     cursor: pointer;
+    line-height: 80px;
     display: none;
 }
 
@@ -62,37 +63,3 @@ a.active,a:hover{
     display: none;
 }
 
-@media (max-width: 952px) {
-    label.logo{
-        font-size: 30px;
-        padding-left: 50px;
-    }
-
-    nav ul li a{
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 858px){
-    .checkbtn{
-        display: block;
-    }
-
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #2c3e50;
-        left: -100%;
-        transition: all .5s;
-        top: 0;
-    }
-
-    nav ul li{
-       display: block; 
-    }
-
-    #check:checked ~ ul{
-        left: 0;
-    }
-}
