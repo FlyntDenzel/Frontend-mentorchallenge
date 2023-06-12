@@ -147,7 +147,26 @@ nav ul li a{
 }
 
 .product img{
-    height: 100%;
+    height: 80%;
+    padding: 0 10px;
+    padding-top: 10px;
+}
+
+.product-text{
+    padding-left: 20px;
+}
+
+.product-text h1{
+    padding-top: 5px;
+    color: #C5C6CE;
+}
+
+.product-text h3{
+    padding-top: 10px;
+}
+
+.product-text p{
+    padding-top: 30px;
 }
 
 @media (max-width: 952px) {
