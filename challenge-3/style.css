@@ -63,7 +63,6 @@ nav ul li a{
 }
 
 .top-section{
-    border: 2px solid aqua;
     height: 70%;
     display: flex;
 }
@@ -134,14 +133,12 @@ nav ul li a{
 }
 
 .bottom-section{
-    border: 2px solid orange;
     height: 22%;
     display: flex;
     justify-content: space-between;
 }
 
 .product{
-    border: 2px solid purple;
     width: 30%;
     display: flex;
 }
