@@ -77,9 +77,8 @@ nav ul li a{
     border: 2px solid blue;
     width: 30%;
     background-color: #000019;
+    color: white;
 }
-
-
 
 .image{
     height: 55%;
@@ -123,7 +122,15 @@ nav ul li a{
     padding: 20px;
 }
 
+.article{
+    padding: 20px;
+}
 
+.article p{
+    opacity: 0.6;
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
 
 .bottom-section{
     border: 2px solid orange;
