@@ -69,15 +69,15 @@ nav ul li a{
 }
 
 .left-section{
-    border: 2px solid green;
     width: 70%;
 }
 
 .right-section{
-    border: 2px solid blue;
     width: 30%;
     background-color: #000019;
     color: white;
+    margin: 0 20px;
+    border: 4px;
 }
 
 .image{
@@ -115,6 +115,7 @@ nav ul li a{
     border: none;
     border-radius: 3px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .right-section h1{
@@ -135,6 +136,13 @@ nav ul li a{
 .bottom-section{
     border: 2px solid orange;
     height: 22%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product{
+    border: 2px solid purple;
+    width: 30%;
 }
 
 @media (max-width: 952px) {
