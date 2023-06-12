@@ -78,6 +78,29 @@ nav ul li a{
     width: 30%;
 }
 
+.image{
+    border: 2px solid grey;
+    height: 55%;
+    /* background-image: url(assets/images/image-web-3-desktop.jpg); */
+    background-size: cover;
+}
+
+.text{
+    border: 2px solid red;
+    height: 45%;
+    display: flex;
+}
+
+.left-section-text{
+    border: 2px solid blueviolet;
+    width: 40%;
+}
+
+.right-section-text{
+    border: 2px solid yellow;
+    width: 60%;
+}
+
 .bottom-section{
     border: 2px solid orange;
     height: 22%;
