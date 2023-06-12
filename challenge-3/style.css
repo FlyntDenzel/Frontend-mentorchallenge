@@ -79,26 +79,40 @@ nav ul li a{
 }
 
 .image{
-    border: 2px solid grey;
     height: 55%;
-    /* background-image: url(assets/images/image-web-3-desktop.jpg); */
+    background-image: url(assets/images/image-web-3-desktop.jpg);
     background-size: cover;
 }
 
 .text{
-    border: 2px solid red;
     height: 45%;
     display: flex;
 }
 
 .left-section-text{
-    border: 2px solid blueviolet;
     width: 40%;
+    font-size: 1.8rem;
+    margin: 30px auto;
 }
 
 .right-section-text{
-    border: 2px solid yellow;
     width: 60%;
+    margin: 30px;
+    font-size: 1.5rem;
+    opacity: 0.5;
+    padding-left: 30px;
+}
+
+.right-section-text button{
+    margin: 50px 0;
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    background: rgb(253, 3, 3);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
 }
 
 .bottom-section{
