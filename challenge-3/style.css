@@ -143,6 +143,11 @@ nav ul li a{
 .product{
     border: 2px solid purple;
     width: 30%;
+    display: flex;
+}
+
+.product img{
+    height: 100%;
 }
 
 @media (max-width: 952px) {
