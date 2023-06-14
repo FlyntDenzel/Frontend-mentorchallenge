@@ -41,3 +41,12 @@ body{
     padding-right: 10px;
     padding-top: 5px;
 }
+
+#container-2{
+    background-image: linear-gradient(to right, rgb(179, 42, 179),rgb(59, 59, 223),pink,rgb(233, 32, 233));
+    width: 45%;
+    margin: 20px auto;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, .35);
+}
