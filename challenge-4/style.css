@@ -32,3 +32,9 @@
     border: 2px solid red;
     height: 70%;
 }
+
+.front-card img{
+    width: 80%;
+    margin-top: -106px;
+    margin-left: 20px;
+}
