@@ -12,9 +12,20 @@
 }
 
 .top{
+    display: center;
     height: 30%;
     background-image: url(images/bg-main-mobile.png);
     background-size: cover;
+}
+
+.back-card{
+    display: flex;
+    justify-content: end;
+}
+
+.back-card img{
+    margin: 20px;
+    width: 80%;
 }
 
 .bottom{
