@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid black;
+    width: 60%;
+    margin: 20px auto;
+    height: 700px;
+}
+
+.top{
+    height: 30%;
+    background-image: url(images/bg-main-mobile.png);
+    background-size: cover;
+}
+
+.bottom{
+    border: 2px solid red;
+    height: 70%;
+}
