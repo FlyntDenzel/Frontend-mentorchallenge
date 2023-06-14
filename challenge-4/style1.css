@@ -3,15 +3,16 @@
     margin: 0;
 }
 
-.container{
+#container{
     width: 45%;
     margin: 20px auto;
     height: 150px;
     border-radius: 5px;
     box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, .35);
+    background-color: rgb(245, 232, 232);
 }
 
-.top{
+#top{
     height: 10%;
 }
 
@@ -20,7 +21,7 @@
     background-color: rgb(58, 55, 55);
 }
 
-.bottom{
+#bottom{
     margin-top: 20px;
     background-color: rgb(197, 191, 191);
     height: 18%;
