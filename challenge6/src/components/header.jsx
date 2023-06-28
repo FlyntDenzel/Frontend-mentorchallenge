@@ -1,9 +1,9 @@
 import React from "react";
 
 function Header() {
-    return <header>
+    return <header className="header">
         <div className="logo">
-            <h2>Snap</h2>
+            <h2>snap</h2>
         </div>
         <div className="list">
             <ul>
