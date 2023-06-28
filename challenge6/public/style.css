@@ -82,18 +82,39 @@ body{
 
 .content{
     width: 80%;
-    height: 500px;
+    height: 530px;
     margin: auto;
-    border: 2px solid black;
     display: flex;
 }
 
 .left-side{
     border: 2px solid blue;
-    width: 60%;
+    width: 55%;
+    padding-top: 50px;
+}
+
+.left-side h2{
+    font-size: 4.5rem;
+}
+
+.left-side p{
+    padding-top: 40px;
+    opacity: .9;
+}
+
+.left-side button{
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
 }
 
 .right-side{
     border: 2px solid green;
     width: 40%;
 }
+
