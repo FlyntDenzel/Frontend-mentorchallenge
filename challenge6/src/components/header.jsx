@@ -10,18 +10,19 @@ function Header() {
                 <div className="dropdown">
                   <li className="dropdown-1">Features</li>
                  <div className="dropdown-content">
-                        <a href="#">Item 1</a>
-                        <a href="#">Item 2</a>
-                        <a href="#">Item 3</a>
+                        <a href="#">Todo List</a>
+                        <a href="#">Calendar</a>
+                        <a href="#">Reminder</a>
+                        <a href="#">Planning</a>
                  </div>
                 </div>
                 
                 <div className="dropdown">
                   <li className="dropdown-1">Company</li>
                  <div className="dropdown-content">
-                        <a href="#">Item 1</a>
-                        <a href="#">Item 2</a>
-                        <a href="#">Item 3</a>
+                        <a href="#">History</a>
+                        <a href="#">Our Team</a>
+                        <a href="#">Blog</a>
                  </div>
                 </div>
             <li>Careers</li>
