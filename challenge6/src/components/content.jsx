@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../images/image-hero-desktop.png"
 
 function Content() {
     return <div className="content">
@@ -13,7 +14,7 @@ function Content() {
         <button>Learn more</button>
        </div>
        <div className="right-side">
-
+        <img src={image} alt="" srcset="" />
        </div>
     </div>
 }
