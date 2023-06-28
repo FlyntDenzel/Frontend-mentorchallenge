@@ -121,5 +121,12 @@ body{
 }
 
 .footer{
-    
+    display: flex;
+    width: 700px;
+    padding-left: 130px;
+    margin-top: 20px;
+}
+
+.footer svg{
+    padding-right: 50px;
 }
