@@ -7,7 +7,15 @@ function Header() {
         </div>
         <div className="list">
             <ul>
-            <li>Features</li>
+                <div className="dropdown">
+                  <li className="dropdown-1">Features</li>
+                 <div className="dropdown-content">
+                        <a href="#">Item 1</a>
+                        <a href="#">Item 2</a>
+                        <a href="#">Item 3</a>
+                 </div>
+                </div>
+                
             <li>Company</li>
             <li>Careers</li>
             <li>About</li>
