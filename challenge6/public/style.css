@@ -69,10 +69,31 @@ body{
     background-color: white;
     border: none;
     cursor: pointer;
+    transition: 0.2s ease-out;
 }
 
 .right-section button:hover{
     border: 1px solid grey;
     border-radius: 10px;
+    /* color: white; */
+    background-color: rgb(243, 232, 217);
 
+}
+
+.content{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+}
+
+.left-side{
+    border: 2px solid blue;
+    width: 60%;
+}
+
+.right-side{
+    border: 2px solid green;
+    width: 40%;
 }
