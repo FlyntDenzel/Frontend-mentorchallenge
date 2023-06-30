@@ -3,7 +3,6 @@ import "./footer.css";
 
 function Footer(){
     return<div>
-        hello world
     </div>
 }
 

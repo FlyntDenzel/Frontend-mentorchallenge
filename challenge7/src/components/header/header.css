@@ -1,3 +1,32 @@
-.div{
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 60%;
+    margin: 10px auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/src/images/desktop/image-header.jpg);
+    height: 400px;
+    background-size: cover;
+}
+
+.brand-name{
+    padding: 20px;
+    cursor: pointer;
+}
+
+.navbar-link{
+    padding: 25px;
+}
+
+.navbar-link ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
 }
