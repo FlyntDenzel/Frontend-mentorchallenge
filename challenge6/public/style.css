@@ -55,6 +55,24 @@ body{
     display: block;
 }
 
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
 .right-section{
     position: absolute;
     top: 0;
@@ -142,7 +160,26 @@ body{
 }
 
 @media (max-width: 576px) {
-    body{
-        color: red;
+    .toggle-button{
+        display: flex;
+        margin-left: 100px;
+    }
+
+    .list{
+        display: none;
+        width: 100%;
+    }
+
+    .right-section{
+        display: none;
+    }
+
+    .content{
+        display: block;
+    }
+
+    .header{
+        justify-content: space-between;
+        width: 100%;
     }
 }

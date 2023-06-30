@@ -5,6 +5,7 @@ function Header() {
         <div className="logo">
             <h2>snap</h2>
         </div>
+       
         <div className="list">
             <ul>
                 <div className="dropdown">
@@ -33,7 +34,11 @@ function Header() {
         <button>Login</button>
         <button>Register</button>
       </div>
-        
+      <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
     </header>
 }
 
