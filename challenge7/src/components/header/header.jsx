@@ -1,7 +1,8 @@
 import React from 'react';
+import "./header.css";
 
 function Header(){
-    return<div>
+    return<div className='div'>
         hello world
     </div>
 }
