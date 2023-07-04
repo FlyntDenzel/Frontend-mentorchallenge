@@ -1,13 +1,17 @@
 import React from 'react';
 import "./header.css";
-import image from "./../../images/desktop/image-header.jpg"
+import image from "./../../images/desktop/image-header.jpg";
 
 function Header(){
-    return<div className="container">
-         <div className="header">
+    return<div className="header">
         <div className="brand-name">
             <h2>sunnyside</h2>
         </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
             <div className="navbar-link">
                 <ul>
                 <li>About</li>
@@ -17,8 +21,6 @@ function Header(){
             </ul>
             </div>
     </div>
-    </div>
-   
 }
 
 export default Header;

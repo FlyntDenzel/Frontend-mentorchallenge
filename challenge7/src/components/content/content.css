@@ -1,0 +1,15 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.main-text{
+    color: white;
+    background-color: rgb(66, 193, 243);
+    height: 50vh;
+}
+
+.main-text h2{
+    padding: 100px;
+    font-size: 2rem;
+}

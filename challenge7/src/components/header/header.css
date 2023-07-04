@@ -2,24 +2,20 @@
     margin: 0;
     padding: 0;
 }
-.container{
-    width: 60%;
-    margin: 10px auto;
-    color: white;
-    font-family: sans-serif;
-}
 
 .header{
     display: flex;
     justify-content: space-between;
     background-image: url(/src/images/desktop/image-header.jpg);
-    height: 400px;
     background-size: cover;
+    color: white;
+    font-family: sans-serif;
 }
 
 .brand-name{
     padding: 20px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .navbar-link{
@@ -34,7 +30,7 @@
 }
 
 .navbar-link ul li{
-    transition: 0.3s ease-out;
+    transition: 0.2s ease-out;
 }
 
 .navbar-link ul li:hover{
@@ -43,4 +39,51 @@
     color: black;
     padding: 10px;
     border-radius: 10px;
+}
+
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+    .toggle-button{
+        display: flex;
+    }
+
+    .navbar-link{
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-link ul{
+        margin-top: 10px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-link li{
+        text-align: center;
+    }
+
+    .navbar-link li a{
+        padding: .5rem 1rem;
+    }
+
+    .navbar-link.active{
+        display: flex;
+    }
 }
