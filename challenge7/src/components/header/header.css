@@ -1,89 +1,18 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .header{
-    display: flex;
-    justify-content: space-between;
-    background-image: url(/src/images/desktop/image-header.jpg);
-    background-size: cover;
-    color: white;
+    background-color: orange;
+    height: 10vh;
     font-family: sans-serif;
-}
-
-.brand-name{
-    padding: 20px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.navbar-link{
-    padding: 25px;
-}
-
-.navbar-link ul{
-    list-style: none;
     display: flex;
-    gap: 25px;
-    cursor: pointer;
+    align-items: center;
+    justify-content: center;
 }
 
-.navbar-link ul li{
-    transition: 0.2s ease-out;
-}
-
-.navbar-link ul li:hover{
-    background-color: white;
-    opacity: .5;
-    color: black;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.toggle-button{
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 31px;
-    height: 21px;
-}
-
-.toggle-button .bar{
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
-}
-
-@media (max-width: 576px) {
-    .toggle-button{
-        display: flex;
-    }
-
-    .navbar-link{
-        display: none;
-        width: 100%;
-    }
-
-    .navbar-link ul{
-        margin-top: 10px;
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-link li{
-        text-align: center;
-    }
-
-    .navbar-link li a{
-        padding: .5rem 1rem;
-    }
-
-    .navbar-link.active{
-        display: flex;
-    }
+.header h1{
+    color: white;
 }
